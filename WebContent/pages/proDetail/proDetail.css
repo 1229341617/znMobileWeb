@@ -1,0 +1,325 @@
+/*!**/
+/* *author:chenhe*/
+/* * date:20181122*/
+/* * ps:太阳,暖和*/
+/* *  *!*/
+/*!*设置header start*!*/
+/*#head{*/
+/*	height:50px;*/
+/*	!*background-color:#e8f7fd;*!*/
+/*}*/
+/*#title{*/
+/*	display:inline-block;*/
+/*	margin-top:10px;*/
+/*}*/
+
+/*#icon{*/
+/*	margin-left:10px;*/
+/*}*/
+/*!*设置header end*!*/
+/*.page-content-wrapper{*/
+/*	margin-left:50px;*/
+/*	margin-right:50px;*/
+/*    border: 2px solid #000000;*/
+/*}*/
+
+/*.tablelist{*/
+/*	border-right:1px solid #000;*/
+/*	border-bottom:1px solid #000;*/
+/*}*/
+/*.itemlist{*/
+/*	margin-top:30px;*/
+/*	border-bottom:1px solid #000;*/
+/*}*/
+/*.itemtext{*/
+/*	text-align:center;*/
+/*}*/
+/*th,td{*/
+/*	text-align:center;*/
+/*}*/
+/*th{*/
+/*	background-color:#e8f7fd;*/
+/*}*/
+/*!*设置disabled的背景颜色*/
+/* *author:chenhe*/
+/* * date:20181126*/
+/* * 太阳,雾,暖和 */
+/* *!*/
+/*.form-control[disabled],.form-control[readonly],.fieldset[disabled] .form-control{*/
+/*	background-color:#fff;*/
+/*	opacity:1;*/
+/*}*/
+/*#dealHead{*/
+/*	border:1px solid #32c5d2;*/
+/*	margin-left:5px;*/
+/*	margin-right:5px;*/
+/*	box-shadow: 0 10px 25px -10px #32c5d2;*/
+/*	background:#fff;*/
+/*}*/
+/*#deal{*/
+/*	height:70px;*/
+/*	margin-top:10px;*/
+/*	margin-bottom:10px;*/
+/*}*/
+/*!*缩略图和展开图 start*!*/
+/*.img{*/
+/*	display:inline-block;*/
+/*	float:right;*/
+/*	margin-right:10px;*/
+/*}*/
+/*.tools{*/
+/*	width:30px;*/
+/*	height:30px;*/
+/*	border:1px solid #bbbbbb;*/
+/*	display:inline-block;*/
+/*	margin-right:5px;*/
+/*	cursor: pointer;*/
+/*}*/
+/*.tools i{*/
+/*	display:inline-block;*/
+/*	margin-top:7px;*/
+/*	color:#bbbbbb;*/
+/*}*/
+/*!*点击图标，图标改变颜色*!*/
+/*.native{*/
+/*	border:1px solid #32c5d2;*/
+/*	background-color:#fff;*/
+/*}*/
+/*.native i{*/
+/*	color:#32c5d2;*/
+/*}*/
+/*!*点击图标，图标改变颜色end*!*/
+
+/*!*缩略图和展开图 end*!*/
+/*!*设置表格自动滚动*!*/
+/*.tableHead{*/
+/*	overflow:auto;*/
+/*}*/
+/*!*设置表格自动滚动 end*!*/
+/*!*修改label的字体大小*!*/
+/*!*设置表头*!*/
+/*.thTitle{*/
+/*	display:inline-block;*/
+/*	width:100%;*/
+/*	border-right:1px solid #eee;*/
+/*}*/
+/*.trTitle :last-child span{*/
+/*	border-right:none*/
+/*}*/
+/*#conBody{*/
+/*	margin:0 5px 20px 5px;*/
+/*	padding-top:10px;*/
+/*	box-shadow:1px 2px 10px #eee5ec;*/
+/*}*/
+/*#contentWrap{*/
+/*	display:inline-block;*/
+/*	width:30px;*/
+/*	height:30px;*/
+/*	float:left;*/
+/*	margin-top:-10px;*/
+/*	background-color: #32c5d2;*/
+/*	text-align:center;*/
+/*}*/
+/*#wrap{*/
+/*	display:inline-block;*/
+/*	margin-top:2px;*/
+/*	color:#fff;*/
+/*}*/
+/*#col{*/
+/*	margin:-10px 10px 20px 20px;*/
+/*}*/
+/*!*0697e8*!*/
+.section{
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 1200px;
+	background: #fff;
+}
+#spXX{
+	/*display: none;*/
+}
+#head{
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+#baseXX, #firstUnknownXX>div, #spXX{
+    border-top: 1px solid #000;
+    margin: 1px 0 5px;
+}
+.c-theme-bg-after:after, .c-theme-bg{
+	background: #ccc!important;
+}
+input:disabled{
+	background: #fff;
+}
+input:focus {
+    outline: none;
+}
+.base-information, .first-unknown-info, .related-accessory,.examine-information, .examine-result{
+	padding: 0px 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 17px;
+}
+.related-accessory, .examine-information{
+	border-bottom: 1px solid #000000;
+	margin: 0 0 5px;
+}
+/*.form-group{
+	display: flex;
+	margin: 0!important;
+}*/
+.form-group>label{
+	box-sizing: border-box;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-top: none!important;
+	border-left: none!important;
+	text-align: center;
+	line-height: 50px;
+	margin: 0;
+	float: left;
+	height: 50px;
+}
+.form-group{
+	margin-bottom: 0px;
+}
+.form-group>div{
+	box-sizing: border-box;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-top: none!important;
+	border-left: none!important;
+	text-align: center;
+	margin: 0;
+	/*line-height: 50px;*/
+	padding: 14px 0;
+    width: 60%;
+    float: left;
+    height: 50px;
+    overflow:auto;
+}
+/*
+.form-group>div::-webkit-scrollbar { width: 0 !important }
+
+.form-group>div { -ms-overflow-style: none; }
+
+.form-group>div { overflow: -moz-scrollbars-none; }*/
+
+
+.form-group>label{
+	width: 40%;
+	background: #F5FAFF;
+}
+.form-group>textarea{
+	width: 60%;
+}
+.base-info-item{
+	width: 50%;
+	float: left;
+}
+.first-unknown-info{
+    height: 30px;
+    line-height: 30px;
+    margin: 0!important;
+}
+.unknown-table{
+	width: 100%;
+}
+.unknown-table tr{
+	font-size: 14px;
+}
+.unknown-table th{
+	background: #F5FAFF;
+}
+.unknown-table th, .unknown-table td{
+	line-height: 50px;
+	font-weight: 400;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000000;	
+	text-align: center!important;
+}
+.file-section{
+	padding: 0 10px;
+	font-size: 14px;
+}
+.file-section label{
+	font-size: 14px!important;
+}
+#checkAll{
+	border-radius: 0;
+	background: none;
+	cursor: pointer;
+}
+.file-download{
+	float: right;
+	padding-left: 30px;
+	background: url('../../static/download.png') no-repeat left center;
+	background-size: 30%;
+	cursor: pointer;
+}
+.file-download:hover>span{
+	text-decoration: underline;
+	color: #5046FC;
+}
+.file-download:hover{
+	background-image: url('../../static/downloadActive.png');
+}
+.examine-data{
+	padding: 50px 200px;
+}
+.examine-data>div:last-child .examine-downArrow{
+	background: none;
+}
+.examine-detail{
+	font-size: 14px!important;
+	height: 150px;
+	position: relative;
+}
+.examine-back{
+    width: 15%;
+	float: left;
+	height: 100%;
+}
+.examine-item{
+	width: 85%;
+	float: left;
+	padding: 10px 20px;
+	border: 1px solid #C5E1A9;
+	border-radius: 5px!important;
+	background: #F9FCF5;
+}
+.examine-item>div>span:nth-child(2){
+	font-weight: bold;
+}
+.examine-item div{
+	padding: 5px;
+}
+.examine-complete{
+	width: 100%;
+	height: 20px;
+	background: url('../../static/complete.png') no-repeat center;
+	background-size: 20px;
+    margin: 10px auto 0;
+    text-align: right;
+}
+.examine-complete>span{
+    padding: 0 10px 0 0;
+    position: relative;
+    left: 5px;
+    background: #fff url(../../static/circle.png) no-repeat right center;
+    background-size: 10px;
+    width: 45%;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+.examine-downArrow{
+	width: 20px;
+	height: calc(100% - 20px);
+    background: url('../../static/downArrowNew.png') no-repeat left center;
+    background-size: 100% 86%;
+    margin: 0 auto;
+}
